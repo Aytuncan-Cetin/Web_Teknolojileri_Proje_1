@@ -30,7 +30,7 @@
     - Kullanıcı adının mail olup olmadığı,
     - Kullanıcı adı ve şifrenin boş olup olmadığı kontrol edilmeli.
 	
-	##### İlgi Alanları Sayfası
+ ##### İlgi Alanları Sayfası
     - İlgi alanlarımla ilgili(film, spor  vb) hakkında API ile veri alınacak.
     
   ##### İletişim Sayfası

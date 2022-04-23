@@ -6,18 +6,18 @@
 
 ###   İçerik:
 
-  ##### Ana Sayfada
-    - Diğer sayfalara ulaşılabilicek menü
     
   ##### Hakkında Sayfası
-    - Kişisel ilgi alanlarım vb. bilgiler
+	- Giriş Sayfası Niteliğinde olacaktır.
+    - Hobilerim sevdiğim spor aktiviteleri vb. bulunacak
     
   ##### Özgeçmiş Sayfası    
-    - Eğitim bilgileri table ve div kullanarak oluşturulmalı
+    - Eğitim bilgilerim yer alacak.
+	- CV niteliğinde samantic taglar kullanılacak
     
   ##### Şehrim Sayfası  
-    - Şehre ait kısa bir metin,
-    - En az 4 mekana ait fotoğrafın olduğu bir slider
+    - Şehre ait bilgilendirici bir yazı olacak
+    - Şehrin önemli mekanlarına ait resimler slider üzerinde	bulunacak.
     - Slider daki resimlere tıklandığında resimlere ait içerik sayfaları açılmalı
    
   ##### Mirasımız Sayfası
@@ -28,16 +28,19 @@
     - Eğer kullanıcı adı ve şifre doğrulanırsa 'Hoşgeldiniz' mesajı verilmeli,
     - Eğer kullanıcı ad veya şifre yanlış ise login sayfasına geri dönülmeli,
     - Kullanıcı adının mail olup olmadığı,
-    - Kullanıcı adı ve şifrenin boş olup olmadığı kontrol edilmeli,
+    - Kullanıcı adı ve şifrenin boş olup olmadığı kontrol edilmeli.
+	
+	##### İlgi Alanları Sayfası
+    - İlgi alanlarımla ilgili(film, spor  vb) hakkında API ile veri alınacak.
     
   ##### İletişim Sayfası
     - Form elemanları kullanılmalı
     - Kontrol işlemleri javascript ile yapılmalı
     - Gönderilen form bilgileri başka bir sayfada görüntülenmeli
     
-###    Proje Süreci
-  - Projenin 4 farklı versiyonunu oluşturmayı planlıyorum.
-    - İlk versiyonda sayfaların html dosyalarının yazılması ve gerekli dökümanın ve içeriğin toplanması.
-    - Sayfaların tasarım kodlarının yazılması,
-    - Gerekli javascript ve php dosyalarının tamamlanması,
-    - Ve son olarak eksik gördüğüm ve eklemek istediğim kısımların eklenmesi.
+  ##### Proje Süreci
+    - İlk olarak login sayfası ve asıl sitemize erişmek için yapılan girişi php kontrolü ile sağlamak.
+    - Sayfaların tasarımlarının belirlenmesi ve kodlarının yazılması
+    - Sayfalar için gerekli bilgilerin toplanması(resim,yazı vb.)
+    - Topladığımız bilgi ve resimlerin sayfalara düzenli bir biçimde aktarılması.
+    - Son aşamada sayfanın eksikliklerinin gözden geçirilmesi ve varsa tamamlanması
